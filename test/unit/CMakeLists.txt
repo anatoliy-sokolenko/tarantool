@@ -1,3 +1,5 @@
 add_executable(queue queue.c)
 add_executable(mhash mhash.c)
+add_executable(crope crope.c)
 set_target_properties(mhash PROPERTIES COMPILE_FLAGS "-std=c99")
+set_target_properties(crope PROPERTIES COMPILE_FLAGS "-std=c99")
